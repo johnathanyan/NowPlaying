@@ -1,0 +1,14 @@
+{
+   "background": {
+      "scripts": [ "appPopup.js", "lastfm.api.cache.js", "lastfm.api.js", "lastfm.api.md5.js" ],
+      "persistent": true
+   },
+   "browser_action": {
+      "default_title": "Samples n Lyrics"
+   },
+   "manifest_version": 1,
+   "name": "Samples n Lyrics",
+   "permissions": [ "storage", "tabs"],
+   "version": "1.0",
+   "description": "Displays samples and lyrics for current spotify song."
+}
