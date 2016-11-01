@@ -1,14 +1,20 @@
 {
-   "background": {
-      "scripts": [ "appPopup.js", "lastfm.api.cache.js", "lastfm.api.js", "lastfm.api.md5.js" ],
-      "persistent": true
-   },
    "browser_action": {
-      "default_title": "Samples n Lyrics"
+      "default_title": "Now Playing",
+      "default_icon": "musico.png",
+      "default_popup": "popup.html"
    },
-   "manifest_version": 1,
-   "name": "Samples n Lyrics",
-   "permissions": [ "storage", "tabs"],
+   "content_scripts": [{
+     "js": ["js/main.js"],
+     "matches": ["http://*/*", "https://*/*"]
+   }],
+   "icons": {
+      "512" : "musico.png"
+   },
+   "manifest_version": 2,
+   "content_security_policy": "script-src 'self' https://ws.audioscrobbler.com/; object-src 'self'",
+   "name": "Now Playing",
+   "permissions": [ "storage", "tabs", "*://*/*", "webRequest"],
    "version": "1.0",
-   "description": "Displays samples and lyrics for current spotify song."
+   "description": "Displays info for current Spotify song."
 }
