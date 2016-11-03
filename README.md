@@ -1,7 +1,8 @@
 <html>
 
 <body>
-        Chrome extension that finds the last (or current) Spotify song played and finds album info and lyrics. Made to replace musixmatch
+        Chrome extension that finds the last (or current) last.fm song played and finds album info and lyrics. Can be used with spotify
+        and soundcloud if you scrobble your accounts to last.fm Made to replace musixmatch
         on Spotify ever since it stopped being offered. In reality, just me playing around with JavaScript and APIs.
     <br>
     <center> <img src = "https://github.com/johnathanyan/NowPlaying/blob/master/example.gif?raw=true"></center>
