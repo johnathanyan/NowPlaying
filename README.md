@@ -5,7 +5,7 @@
         and soundcloud if you scrobble your accounts to last.fm Made to replace musixmatch
         on Spotify ever since it stopped being offered. In reality, just me playing around with JavaScript and APIs.
     <br>
-    <center> <img src = "https://github.com/johnathanyan/NowPlaying/blob/master/example.gif?raw=true"></center>
+    <img src = "https://github.com/johnathanyan/NowPlaying/blob/master/example.gif?raw=true">
     <h1> How it works:
                     </h1>
         Spotify's API currently does not have a function to get the current song played by a user, so I got around it by scrobbling my play history to last.fm. The last.fm API has the function that Spotify's is missing, so I used it alongside the musixmatch API to search for lyrics and display them. Sample functionality is not yet implemented.
@@ -16,7 +16,7 @@
     <br> - Integrate soundcloud functionality
     <br> - Tidy up CSS
     <br> - Take into consideration failures to find lyrics or song info
-    <br> - Customizable API key and username
+    <br><del> - Customizable API key and username </del>
     <br>
     <h1> Thanks to: </h1>
     MusixMatch API
