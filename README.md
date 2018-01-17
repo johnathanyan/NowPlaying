@@ -5,6 +5,7 @@
         and soundcloud if you scrobble your accounts to last.fm Made to replace musixmatch
         on Spotify ever since it stopped being offered. In reality, just me playing around with JavaScript and APIs.
     <br>
+    ![Demo](https://github.com/johnathanyan/NowPlaying/blob/master/example.gif?raw=true)
     <img src = "https://github.com/johnathanyan/NowPlaying/blob/master/example.gif?raw=true">
     <h1> How it works:
                     </h1>
